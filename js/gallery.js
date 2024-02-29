@@ -91,10 +91,6 @@ galleryContainer.addEventListener("click", (e) => {
   if (e.target.nodeName === "IMG") {
     console.log(e.target.dataset.source);
   }
-});
-
-galleryContainer.addEventListener("click", (e) => {
-  e.preventDefault();
 
   if (e.target.nodeName === "IMG") {
     const instance = basicLightbox.create(`
